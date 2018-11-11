@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Beam
+  - Payload
+  - PayloadPut
+  - weight
+  - helper
+  - Base
+  - payload_sling
   layers:
   - Default
   - TransparentFX

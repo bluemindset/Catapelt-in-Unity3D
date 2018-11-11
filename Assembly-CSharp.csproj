@@ -67,6 +67,7 @@
     <Compile Include="Assets\Optimizer.cs" />
     <Compile Include="Assets\reload.cs" />
     <Compile Include="Assets\rotate.cs" />
+    <Compile Include="Assets\weightIncreament.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Stefanos/Desktop/Trebuchet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

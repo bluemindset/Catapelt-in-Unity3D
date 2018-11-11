@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class fire : MonoBehaviour {
 
-    public Rigidbody ball;
+    public GameObject ball;
     public Rigidbody chain;
     // Update is called once per frame
     void Update () {
@@ -12,9 +12,10 @@ public class fire : MonoBehaviour {
             if (Input.GetKeyDown("space"))
             {
                 print("Fire!!");
-            ball.constraints = RigidbodyConstraints.None;
+           
+            ball.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             chain.isKinematic = false;
-
+            ball.transform.SetParent(null);
         }
     }
    
