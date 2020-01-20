@@ -1,16 +1,15 @@
-EPL 426-Computer Graphics 
-Lab Teacher: Mr. Ladas Nicolas
-Student: Stefanos Ioannou
-ID: 945470
+# Catapelt in Unity 3D 
+## EPL 426 Computer Graphics 
+## Stefanos Ioannou
 
-Implemented:
-1.Different materials, skybox, height maps, textures on gameobjects.
-2.Rotate ,Translate, Reloading, Firing ,Increasing chain weight of Trebuchet.
-3.Playground to hit cube targets.
-4.Functionality scene where all the functions of the Trebuchet are shown.
-5.No-Functionality scene that only when you press play fires the payload.
-6.Reloading is realistic using Quaternion Slerp function.
-7.The bag which is the payload inside is made out of multiple joints.
+### Implemented
+1. Different materials, skybox, height maps, textures on gameobjects.
+2. Rotate ,Translate, Reloading, Firing ,Increasing chain weight of Trebuchet.
+3. Playground to hit cube targets.
+4. Functionality scene where all the functions of the Trebuchet are shown.
+5. No-Functionality scene that only when you press play fires the payload.
+6. Reloading is realistic using Quaternion Slerp function.
+7. The bag which is the payload inside is made out of multiple joints.
 
 **SOS***
 ***Delays are added to the functionalities. Please note to wait for the reload to finish and then
